@@ -45,4 +45,9 @@ public class Person {
     public String getPersonPhone(){
         return phone;
     }
+
+    @Override
+    public String toString(){
+        return "name= " + name + ", address= " + address + ", phone= " + phone;
+    }
 }
